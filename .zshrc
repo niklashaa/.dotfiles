@@ -152,4 +152,9 @@ if [ -f '/Users/niklashaag/google-cloud-sdk/completion.zsh.inc' ]; then . '/User
 
 # sudo ln -s /Applications/Julia-1.8.app/Contents/Resources/julia/bin/julia /usr/local/bin/julia
 
+export PATH="/opt/homebrew/opt/postgresql@15/bin:$PATH"
+export PGHOST="34.89.214.133"
+export PGPORT="5432" # Default PostgreSQL port
+export PGUSER="niklas_dev"
+export PGPASSWORD="PQbK0rx_wGu9YsThZnt2Dp3LXzIv4qFa"
 # zprof # Stop profiling
